@@ -28,6 +28,3 @@ CREATE TABLE audit_logs (
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
     ip_address VARCHAR(45)
 );
-
--- Run the migration
-sqlx migrate run
