@@ -1,1 +1,11 @@
+# Ignore Files
+
+## Directories
+
 /target
+
+## Files
+
+.env
+
+

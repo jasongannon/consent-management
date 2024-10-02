@@ -1,5 +1,5 @@
 ```mermaid
-graph TD
+graph LR
     A[project_root] --> B[src]
     A --> C[migrations]
     A --> D[tests]
