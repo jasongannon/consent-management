@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     USERS ||--o{ CONSENTS : has
     USERS {
@@ -26,3 +27,4 @@ erDiagram
         varchar previous_hash
         varchar current_hash
     }
+```
